@@ -1,0 +1,28 @@
+.Nav
+{
+    margin-left: 70%;
+}
+.Nav ul 
+{
+    display: flex;
+}
+.Nav ul li
+{
+    list-style-type:none ;
+    gap:20px;
+   
+}
+
+.Nav ul li a
+{
+    text-decoration: none;
+    color: red;
+
+}
+.Home
+{
+    color:chartreuse;
+    background-color: black;
+    height: 300px;
+    width: 200px;
+}

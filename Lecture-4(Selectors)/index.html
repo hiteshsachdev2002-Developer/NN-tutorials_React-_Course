@@ -1,0 +1,61 @@
+<!-- 4 types of the selector 
+1) ID SELECTOR 
+2) CLASS SELECTOR 
+3) TAG selector
+4) UNIVERSAL SELECTOR -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        *
+        {
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           
+        }
+       
+       .Parent
+       {
+         color: chartreuse;
+         background-color: black;
+         height: 400px;
+         text-align: center;
+         border:10px solid burlywood;
+         border-radius: 30px;
+       }
+       #Child1
+       {
+        color:chocolate;
+        background-color: aquamarine;
+        
+       }
+       #Child2
+       {
+        background-color: brown;
+       }
+     #Child3
+     {
+        background-color: blueviolet;
+     }
+     p
+     {
+        background-color:greenyellow ;
+        color:orangered;
+     }
+
+    </style>
+</head>
+<body>
+    <div class="Parent">
+        <h1>You Are Inside the Parent </h1>
+      <div id="Child1"><h1>Child 1 </h1></div>
+      <div id="Child2"><h1>Child 1 </h1></div>
+      <div id="Child3"><h1>Child 1 </h1></div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, doloribus impedit saepe eligendi repellat voluptate, cumque error dolorem quae quaerat ab labore debitis numquam aliquam praesentium architecto quibusdam exercitationem. Nemo.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel similique magnam voluptatem doloremque repudiandae illum dolorum, laboriosam voluptatibus assumenda voluptates impedit, quidem quos! Nulla architecto ullam reprehenderit aliquam cum accusamus.</p>
+    </div>
+</body>
+</html>
