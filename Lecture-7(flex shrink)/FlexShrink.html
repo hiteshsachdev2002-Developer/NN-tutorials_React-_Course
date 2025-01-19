@@ -1,0 +1,59 @@
+<!-- By Default the flex-shrink is 1 -> means it shrinks that element  -->
+
+<!-- flex wrap -> wraps the element  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main-container
+        {
+              
+              height: auto;
+              background-color: beige;
+              display: flex;
+              flex-wrap: wrap;
+        }
+        .box
+        {
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            border: 10px solid whitesmoke;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+      <div class="box">10</div>
+      <div class="box">11</div>
+      <div class="box">12</div>
+      <div class="box">13</div>
+      <div class="box">14</div>
+      <div class="box">15</div>
+      <div class="box">16</div>
+      <div class="box">17</div>
+      <div class="box">18</div>
+      <div class="box">19</div>
+      <div class="box">20</div>
+    </div>
+</body>
+</html>

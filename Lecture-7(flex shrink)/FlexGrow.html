@@ -1,0 +1,45 @@
+<!-- By Default the flex-grow is 0 -> means it grows that element  -->
+
+<!-- flex wrap -> wraps the element  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main-container
+        {
+              
+              height: auto;
+              background-color: beige;
+              display: flex;
+            
+              
+        }
+        .box
+        {
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            border: 10px solid whitesmoke;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+     
+    </div>
+</body>
+</html>
