@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .MainContainer
+        {
+            height: 100vh;
+        
+        }
+        .Sub-main-1
+        {
+            height: 50%;
+            display: flex;
+            border: 2px solid greenyellow;
+        }
+        .box
+        {
+            height: 100%;
+            width: calc(100%/3);
+            border: 2px solid black;
+            padding: 2px;
+            background-color: cadetblue;
+        }
+        .Sub-main-2
+        {
+            height: 50%;
+            display: flex;
+            border: 2px solid greenyellow;
+        }
+        .left-box
+        {
+            height: 100%;
+            width: calc(100%/2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border:2px solid grey;
+            background-color: bisque;
+        }
+        .sub-box-left{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+        }
+        .right-box
+        {
+            height: 100%;
+            width: calc(100%/2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border:2px solid grey;
+            background-color: hotpink;
+            flex-direction: column;
+        }
+     .sub-box-right{
+           width: 100%;
+           height: calc(100%/4);
+           background-color: blueviolet;
+           border: 2px solid gainsboro;
+          
+     }
+
+    </style>
+</head>
+<body>
+    <div class="MainContainer">
+            <div class="Sub-main-1">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="Sub-main-2">
+                <div class="left-box">
+                   <div class="sub-box-left"></div>
+                </div>
+                <div class="right-box">
+                    <div class="sub-box-right"></div>
+                    <div class="sub-box-right"></div>
+                    <div class="sub-box-right"></div>
+                    <div class="sub-box-right"></div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
