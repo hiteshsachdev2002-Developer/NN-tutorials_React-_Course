@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning </title>
+    <style>
+        #grand-Parent
+        {
+            height: 500px;
+            width:  600px;
+            background-color :chartreuse;
+
+        }
+        #Parent
+        {
+             height: 300px;
+             width: 300px;
+             background-color:aqua;
+             position: relative;
+        }
+        #Child
+        {
+          height: 200px;
+          width: 200px;
+          background-color:blueviolet;
+          position: absolute;
+          left: 15px;
+          top:2px;
+        }
+        #WorkSpace
+        {
+            margin-top: 5%;
+            margin-left: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div id="WorkSpace">
+    <div id="grand-Parent">
+        <div id="Parent">
+           <div id="Child">
+
+           </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
