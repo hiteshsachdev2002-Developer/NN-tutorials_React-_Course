@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX BOX </title>
+    <style>
+        *
+        {
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .parent
+        {
+             display: flex;
+             gap :4px;
+             min-height: 100vh;
+             /* x-axis movement  justify content  */
+             justify-content: center;
+            /* y axis movement align-items  */
+             align-items: flex-end;
+        }
+        .Box
+        {
+            height: 100px;
+            width: 100px;
+            background-color: chartreuse;
+            border: 8px solid black;
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="Box"></div>
+    <div class="Box"></div>
+    <div class="Box"></div>
+    <br>
+   </div>
+</body>
+</html>
